@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EcoTips - Consejos Verdes</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#tips">Consejos</a></li>
+                <li><a href="#form">Compromiso Verde</a></li>
+                <li><a href="#about">Acerca de</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>¡Bienvenido a EcoTips!</h1>
+        <p>Consejos diarios para cuidar el medio ambiente</p>
+        <button id="tipBtn">Ver Consejo del Día</button>
+    </section>
+
+    <!-- Consejo del Día -->
+    <section id="tips">
+        <h2>Consejo del Día</h2>
+        <div id="tip-container">
+            <!-- Aquí se insertará el consejo dinámico -->
+        </div>
+        <button id="newTipBtn">Ver otro consejo</button>
+    </section>
+
+    <!-- Formulario Verde -->
+    <section id="form">
+        <h2>Compromiso Verde</h2>
+        <form>
+            <label>
+                <input type="checkbox" name="habit" value="Reciclar"> Reciclar
+            </label>
+            <label>
+                <input type="checkbox" name="habit" value="Ahorrar Agua"> Ahorrar Agua
+            </label>
+            <label>
+                <input type="checkbox" name="habit" value="Usar Bicicleta"> Usar Bicicleta
+            </label>
+            <button type="submit">Enviar Compromiso</button>
+        </form>
+    </section>
+
+    <!-- Acerca de -->
+    <section id="about">
+        <h2>Acerca de</h2>
+        <p>EcoTips es una iniciativa para inspirar a las personas a adoptar hábitos verdes. Cada pequeño paso cuenta para cuidar nuestro planeta.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EcoTips. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Vincula tu archivo JS -->
+</body>
+</html>
